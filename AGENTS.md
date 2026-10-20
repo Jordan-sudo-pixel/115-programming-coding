@@ -25,6 +25,11 @@
 - 尚未確立任何目錄結構、命名或繳交慣例。依照使用者描述的結構走，保持扁平直觀，
   不要自創框架式的版面配置。
 
+## Git 提交規則
+
+- **每次改完程式都要自動 commit 並 push 到 GitHub。** 程式碼有變動後，直接
+  `git add` → `git commit` → `git push`，不必再詢問使用者。
+
 ## Git / .gitignore 注意事項
 
 `.gitignore` 是 GitHub 官方的 Python 範本，未經修改，因此會**默默忽略**一些對課程作業而言
